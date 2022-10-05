@@ -1,0 +1,18 @@
+body {
+  }
+
+.ui{
+    display: flex;
+  }
+.xr_wrapper {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(203, 30, 151);
+}
+
+iframe {
+    background-color: transparent;
+}

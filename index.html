@@ -10,18 +10,34 @@
 <body>
     <section>
         <div class="ui">
+            <div class="leftMenu">
+                <button class="formButton" onclick="changeToWhite()" onmouseover="changeToWhite()">
+                    <img src="./assets/Bowl.jpg" alt="">
+                </button>
+                <button class="formButton" onclick="changeToPurple()" onmouseover="changeToPurple()">
+                    <img src="./assets/Plato.jpg" alt="">
+                </button>
+                <button class="formButton" onclick="changeToPurple()" onmouseover="changeToPurple()">
+                    <img src="./assets/Plato_hondo.jpg" alt="">
+                </button>
+            </div>
             <div class="xr_wrapper">
                 <iframe id="XR" src="https://nico8a54.github.io/XR-Vajillas-corona/" allowfullscreen style="position: absolute; top: 0px; left: 0px; height: 100%; width: 1px; min-width: 100%; *width: 100%;" frameborder="0" scrolling="no">
                 </iframe>
             </div>
-            <div>
-                
-                <button onclick="changeToWhite()">
-                    <img src="./assets/white.jfif" alt="">
-                </button>
-                <button onclick="changeToPurple()">
-                    <img src="./assets/purple.jfif" alt="">
-                </button>
+            <div class="colorOptions">
+                <h2>
+                    El Taller
+                </h2>
+                <p> Selecciona la textura para visualizar interactivamente</p>
+                <div class="colorOptionsButtons">
+                    <button onclick="changeToWhite()" onmouseover="changeToWhite()">
+                        <img src="./assets/7_19_white.png" alt="">
+                    </button>
+                    <button onclick="changeToPurple()" onmouseover="changeToPurple()">
+                        <img src="./assets/7_19_purple.png" alt="">
+                    </button>
+                </div>
             </div>
         </div>
     </section>
